@@ -1,7 +1,7 @@
-import {greeter} from "./greeter";
+import {Cat} from "./greeter";
 
-let user = { firstName: "Migiri", lastName: "Sakihana"};
+let mike = new Cat("あきら");
 
-let sss = greeter(user);
+let sss = mike.greet();
 
 console.log(sss);
